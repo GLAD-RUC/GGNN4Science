@@ -16,12 +16,13 @@
 > + [NRI: Neural Relational Inference for Interacting Systems](https://arxiv.org/pdf/1802.04687.pdf)
 > + [IN: Interaction networks for learning about objects, relations and physics](https://arxiv.org/pdf/1612.00222.pdf)
 > + [E-NFs: E(n) Equivariant Normalizing Flows](https://proceedings.neurips.cc/paper/2021/hash/21b5680d80f75a616096f2e791affac6-Abstract.html)
+> + [EGNN: E(n) equivariant graph neural networks](https://arxiv.org/pdf/2102.09844.pdf)
 > + [SEGNNs: Geometric and Physical Quantities improve E(3) Equivariant Message Passing](http://arxiv.org/abs/2110.02905)
 > + [GMN: Equivariant Graph Mechanics Networks with Constraints](https://openreview.net/pdf?id=SHbhHHfePhP)
 > + [EGHN: Equivariant Graph Hierarchy-Based Neural Networks](https://openreview.net/pdf?id=ywxtmG1nU_6)
 > + [HOGN: Hamiltonian Graph Networks with ODE Integrators](https://arxiv.org/pdf/1909.12790.pdf)
 > + [NCGNN: Newton-Cotes Graph Neural Networks: On the Time Evolution of Dynamic Systems](https://arxiv.org/pdf/2305.14642.pdf)
-> + [EGNN: E(n) equivariant graph neural networks](https://arxiv.org/pdf/2102.09844.pdf)
+
 
 #### **2. Scene Simulation**
 **Datasets:**
