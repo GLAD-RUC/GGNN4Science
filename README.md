@@ -428,3 +428,10 @@ ___
 > + [PaxNet: Physics-aware graph neural network for accurate RNA 3D structure prediction](https://arxiv.org/pdf/2210.16392.pdf)
 
 ## Surveys and Tutorials
+> + [Geometrically equivariant graph neural networks: A survey](https://arxiv.org/pdf/2202.07230.pdf)
+> + [A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems](https://arxiv.org/pdf/2312.07511.pdf)
+> + [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/0760.pdf)
+> + [Graph-based Molecular Representation Learning](https://www.ijcai.org/proceedings/2023/0744.pdf)
+> + [Geometric Deep Learning on Molecular Representations](https://arxiv.org/pdf/2107.12375.pdf)
+> + [Artificial intelligence for science in quantum, atomistic, and continuum systems](https://arxiv.org/pdf/2307.08423.pdf)
+
