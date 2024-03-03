@@ -427,7 +427,7 @@ ___
 > + [ARES: Geometric deep learning of RNA structure](https://www.science.org/doi/10.1126/science.abe5650)
 > + [PaxNet: Physics-aware graph neural network for accurate RNA 3D structure prediction](https://arxiv.org/pdf/2210.16392.pdf)
 
-## Surveys and Tutorials
+## Related Surveys and Tutorials
 > + [Geometrically equivariant graph neural networks: A survey](https://arxiv.org/pdf/2202.07230.pdf)
 > + [A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems](https://arxiv.org/pdf/2312.07511.pdf)
 > + [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/0760.pdf)
