@@ -122,8 +122,8 @@ ___
 > + [DMCG: Direct molecular conformation generation](https://openreview.net/pdf?id=kcrIligNnl)
 > + [MDM: Molecular Diffusion Model for 3D Molecule Generation](https://arxiv.org/pdf/2209.05710.pdf)
 > + [MolDiff: Addressing the Atom-Bond Inconsistency Problem in 3D Molecule Diffusion Generation](https://arxiv.org/pdf/2305.07508.pdf)
-> + [Equivariant Flow Matching with Hybrid Probability Transport for 3D Molecule Generation](https://openreview.net/forum?id=hHUZ5V9XFu)
-> + [Coarse-to-Fine: a Hierarchical Diffusion Model for Molecule Generation in 3D](https://proceedings.mlr.press/v202/qiang23a.html)
+> + [EquiFM: Equivariant Flow Matching with Hybrid Probability Transport for 3D Molecule Generation](https://openreview.net/forum?id=hHUZ5V9XFu)
+> + [Hierdiff: Coarse-to-Fine: a Hierarchical Diffusion Model for Molecule Generation in 3D](https://proceedings.mlr.press/v202/qiang23a.html)
 > + [MPerformer: An SE (3) Transformer-based Molecular Perceptron](https://dl.acm.org/doi/10.1145/3583780.3614974)
 
 
@@ -142,8 +142,8 @@ ___
 > + [3D-Infomax: 3d infomax improves gnns for molecular property prediction](https://proceedings.mlr.press/v162/stark22a/stark22a.pdf)
 > + [Uni-Mol: A Universal 3D Molecular Representation Learning Framework](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6402990d37e01856dc1d1581/original/uni-mol-a-universal-3d-molecular-representation-learning-framework.pdf)
 > + [Transformer-M: One transformer can understand both 2d & 3d molecular data](https://arxiv.org/pdf/2210.01765.pdf)
-> + [Sliced Denoising: A Physics-Informed Molecular Pre-Training Method](https://arxiv.org/abs/2311.02124)
-> + [Fractional Denoising for 3D Molecular Pre-training](https://proceedings.mlr.press/v202/feng23c.html)
+> + [SliDe: Sliced Denoising: A Physics-Informed Molecular Pre-Training Method](https://arxiv.org/abs/2311.02124)
+> + [Frad: Fractional Denoising for 3D Molecular Pre-training](https://proceedings.mlr.press/v202/feng23c.html)
 > + [MGMAE: Molecular Representation Learning by Reconstructing Heterogeneous Graphs with A High Mask Ratio](https://dl.acm.org/doi/abs/10.1145/3511808.3557395)
 > + [MoleculeSDE: A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining](https://proceedings.mlr.press/v202/liu23h/liu23h.pdf)
 ___
