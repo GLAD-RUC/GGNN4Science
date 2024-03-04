@@ -1,5 +1,56 @@
 # **A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**
+
+**arXiv:** [https://arxiv.org/abs/2403.00485](https://arxiv.org/abs/2403.00485)
+
+## **Abstract**
 Geometric graph is a special kind of graph with geometric features, which is vital to model many scientific problems. Unlike generic graphs, geometric graphs often exhibit physical symmetries of translations, rotations, and reflections, making them ineffectively processed by current Graph Neural Networks (GNNs). To tackle this issue, researchers proposed a variety of Geometric Graph Neural Networks equipped with invariant/equivariant properties to better characterize the geometry and topology of geometric graphs. Given the current progress in this field, it is imperative to conduct a comprehensive survey of data structures, models, and applications related to geometric GNNs. In this paper, based on the necessary but concise mathematical preliminaries, we provide a unified view of existing models from the geometric message passing perspective. Additionally, we summarize the applications as well as the related datasets to facilitate later research for methodology development and experimental evaluation. We also discuss the challenges and future potential directions of Geometric GNNs at the end of this survey. 
+
+## **Table of Contents**
+- [**A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**](#a-survey-of-geometric-graph-neural-networks-data-structures-models-and-applications)
+  - [Abstract](#abstract)
+  - [**Architectures and Models**](#architectures-and-models)
+    - [Invariant Graph Neural Networks](#invariant-graph-neural-networks)
+    - [Equivariant Graph Neural Networks](#equivariant-graph-neural-networks)
+      - [Scalarization-Based Models](#scalarization-based-models)
+      - [High-Degree Steerable Models](#high-degree-steerable-models)
+    - [Geometric Graph Transformers](#geometric-graph-transformers)
+  - [**Geometric GNNs for Physics**](#geometric-gnns-for-physics)
+    - [**Particle**](#particle)
+      - [**1. N-Body Simulation**](#1-n-body-simulation)
+      - [**2. Scene Simulation**](#2-scene-simulation)
+  - [**Geometric GNNs for Biochemistry**](#geometric-gnns-for-biochemistry)
+    - [**Small Molecule**](#small-molecule)
+      - [**1. Molecule Property Prediction**](#1-molecule-property-prediction)
+      - [**2. Molecular Dynamics**](#2-molecular-dynamics)
+      - [**3. Molecule Generation**](#3-molecule-generation)
+      - [**4. Molecule Pretraining**](#4-molecule-pretraining)
+    - [**Protein**](#protein)
+      - [**1. Protein Property Prediction**](#1-protein-property-prediction)
+      - [**2. Protein Generation**](#2-protein-generation)
+        - [**2.1 Protein Inverse Folding**](#21-protein-inverse-folding)
+        - [**2.2 Protein Folding**](#22-protein-folding)
+        - [**2.3 Protein Structure and Sequence Co-Design**](#23-protein-structure-and-sequence-co-design)
+      - [**3. Pretraining**](#3-pretraining)
+    - [Mol + Mol](#mol--mol)
+      - [**1. Linker Design**](#1-linker-design)
+      - [**2. Chemical Reaction**](#2-chemical-reaction)
+    - [Mol + Protein](#mol--protein)
+      - [**1. Ligand Binding Affinity**](#1-ligand-binding-affinity)
+      - [**2. Protein-Ligand Docking Pose Prediction**](#2-protein-ligand-docking-pose-prediction)
+      - [**3. Pocket-Based Mol Sampling**](#3-pocket-based-mol-sampling)
+    - [Protein + Protein](#protein--protein)
+      - [**1. Protein Interface Prediction**](#1-protein-interface-prediction)
+      - [**2. Binding Affinity Prediction**](#2-binding-affinity-prediction)
+      - [**3. Protein-Protein Docking Pose Prediction**](#3-protein-protein-docking-pose-prediction)
+      - [**4. Antibody Design**](#4-antibody-design)
+      - [**5. Peptide Design**](#5-peptide-design)
+  - [Other Domains](#other-domains)
+    - [Crystal Property Prediction](#crystal-property-prediction)
+    - [Crystal Generation](#crystal-generation)
+    - [RNA Structure Ranking](#rna-structure-ranking)
+  - [Related Surveys and Tutorials](#related-surveys-and-tutorials)
+
+
 
 ## **Architectures and Models**
 ### Invariant Graph Neural Networks
@@ -12,6 +63,7 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + SphereNet——[Spherical Message Passing for 3D Molecular Graphs](https://openreview.net/pdf?id=givsRXsOt9r)
 > + ComENet——[ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs](https://papers.nips.cc/paper_files/paper/2022/file/0418973e545b932939302cb605d06f43-Paper-Conference.pdf)
 > + QMP——[A Plug-and-Play Quaternion Message-Passing Module for Molecular Conformation Representation](https://github.com/AngxiaoYue/QMP)
+
 
 ### Equivariant Graph Neural Networks
 #### Scalarization-Based Models
