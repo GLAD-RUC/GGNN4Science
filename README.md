@@ -7,13 +7,13 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 
 ## **Table of Contents**
 - [**A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**](#a-survey-of-geometric-graph-neural-networks-data-structures-models-and-applications)
-  - [Abstract](#abstract)
+  - [**Abstract**](#abstract)
   - [**Architectures and Models**](#architectures-and-models)
-    - [Invariant Graph Neural Networks](#invariant-graph-neural-networks)
-    - [Equivariant Graph Neural Networks](#equivariant-graph-neural-networks)
-      - [Scalarization-Based Models](#scalarization-based-models)
-      - [High-Degree Steerable Models](#high-degree-steerable-models)
-    - [Geometric Graph Transformers](#geometric-graph-transformers)
+    - [**Invariant Graph Neural Networks**](#invariant-graph-neural-networks)
+    - [**Equivariant Graph Neural Networks**](#equivariant-graph-neural-networks)
+      - [**Scalarization-Based Models**](#scalarization-based-models)
+      - [**High-Degree Steerable Models**](#high-degree-steerable-models)
+    - [**Geometric Graph Transformers**](#geometric-graph-transformers)
   - [**Geometric GNNs for Physics**](#geometric-gnns-for-physics)
     - [**Particle**](#particle)
       - [**1. N-Body Simulation**](#1-n-body-simulation)
@@ -31,29 +31,29 @@ Geometric graph is a special kind of graph with geometric features, which is vit
         - [**2.2 Protein Folding**](#22-protein-folding)
         - [**2.3 Protein Structure and Sequence Co-Design**](#23-protein-structure-and-sequence-co-design)
       - [**3. Pretraining**](#3-pretraining)
-    - [Mol + Mol](#mol--mol)
+    - [**Mol + Mol**](#mol--mol)
       - [**1. Linker Design**](#1-linker-design)
       - [**2. Chemical Reaction**](#2-chemical-reaction)
-    - [Mol + Protein](#mol--protein)
+    - [**Mol + Protein**](#mol--protein)
       - [**1. Ligand Binding Affinity**](#1-ligand-binding-affinity)
       - [**2. Protein-Ligand Docking Pose Prediction**](#2-protein-ligand-docking-pose-prediction)
       - [**3. Pocket-Based Mol Sampling**](#3-pocket-based-mol-sampling)
-    - [Protein + Protein](#protein--protein)
+    - [**Protein + Protein**](#protein--protein)
       - [**1. Protein Interface Prediction**](#1-protein-interface-prediction)
       - [**2. Binding Affinity Prediction**](#2-binding-affinity-prediction)
       - [**3. Protein-Protein Docking Pose Prediction**](#3-protein-protein-docking-pose-prediction)
       - [**4. Antibody Design**](#4-antibody-design)
       - [**5. Peptide Design**](#5-peptide-design)
-  - [Other Domains](#other-domains)
-    - [Crystal Property Prediction](#crystal-property-prediction)
-    - [Crystal Generation](#crystal-generation)
-    - [RNA Structure Ranking](#rna-structure-ranking)
-  - [Related Surveys and Tutorials](#related-surveys-and-tutorials)
+  - [**Other Domains**](#other-domains)
+    - [**Crystal Property Prediction**](#crystal-property-prediction)
+    - [**Crystal Generation**](#crystal-generation)
+    - [**RNA Structure Ranking**](#rna-structure-ranking)
+  - [**Related Surveys and Tutorials**](#related-surveys-and-tutorials)
 
 
 
 ## **Architectures and Models**
-### Invariant Graph Neural Networks
+### **Invariant Graph Neural Networks**
 > + SchNet——[SchNet: A continuous-filter convolutional neural network for modeling quantum interactions](https://papers.nips.cc/paper/2017/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf)
 > + DimeNet——[Directional Message Passing for Molecular Graphs](https://openreview.net/pdf?id=B1eWbxStPH)
 > + DimeNet++——[Fast and Uncertainty-Aware Directional Message Passing for Non-Equilibrium Molecules](https://arxiv.org/pdf/2011.14115.pdf)
@@ -65,8 +65,8 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + QMP——[A Plug-and-Play Quaternion Message-Passing Module for Molecular Conformation Representation](https://github.com/AngxiaoYue/QMP)
 
 
-### Equivariant Graph Neural Networks
-#### Scalarization-Based Models
+### **Equivariant Graph Neural Networks**
+#### **Scalarization-Based Models**
 > + EGNN——[E(n) Equivariant Graph Neural Networks](https://proceedings.mlr.press/v139/satorras21a/satorras21a.pdf)
 > + GMN——[Equivariant Graph Mechanics Networks with Constraints](https://openreview.net/pdf?id=SHbhHHfePhP)
 > + PaiNN——[Equivariant message passing for the prediction of tensorial properties and molecular spectra](https://proceedings.mlr.press/v139/schutt21a/schutt21a.pdf)
@@ -79,7 +79,7 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + LEFTNet——[A new perspective on building efficient and expressive 3D equivariant graph neural networks](https://openreview.net/pdf?id=hWPNYWkYPN)
 > + Frame-Averaging——[Frame Averaging for Invariant and Equivariant Network Design](https://openreview.net/pdf?id=zIUyj55nXR)
 
-#### High-Degree Steerable Models
+#### **High-Degree Steerable Models**
 > + TFN——[Tensor field networks: Rotation- and translation-equivariant neural networks for 3D point clouds](https://arxiv.org/pdf/1802.08219.pdf)
 > + SEGNN——[Geometric and Physical Quantities Improve E(3) Equivariant Message Passing](https://openreview.net/pdf?id=_xwr8gOBeV1)
 > + Cormorant——[Cormorant: Covariant Molecular Neural Networks](https://papers.nips.cc/paper/2019/file/03573b32b2746e6e8ca98b9123f2249b-Paper.pdf)
@@ -89,7 +89,7 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + MACE——[MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
 > + Allegro——[Learning local equivariant representations for large-scale atomistic dynamics](https://www.nature.com/articles/s41467-023-36329-y)
 
-### Geometric Graph Transformers
+### **Geometric Graph Transformers**
 > + Graphormer——[Do Transformers Really Perform Bad for Graph Representation?](https://proceedings.neurips.cc/paper/2021/file/f1c1592588411002af340cbaedd6fc33-Paper.pdf)
 > + TorchMD-Net——[Equivariant Transformers for Neural Network based Molecular Potentials](https://openreview.net/pdf?id=zNHzqZ9wrRB)
 > + SE(3)-Transformer——[SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks](https://proceedings.neurips.cc/paper/2020/file/15231a7ce4ba789d13b722cc5c955834-Paper.pdf)
@@ -366,7 +366,7 @@ ___
 
 
 
-### Mol + Protein
+### **Mol + Protein**
 #### **1. Ligand Binding Affinity**
 **Datasets:**
 > + CrossDocked2020——[GNINA: Three-Dimensional Convolutional Neural Networks and a Cross-Docked Data Set for Structure-Based Drug Design](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00411)
@@ -408,7 +408,7 @@ ___
 
 
 
-### Protein + Protein
+### **Protein + Protein**
 #### **1. Protein Interface Prediction**
 **Datasets:**
 > + DIPS——[ATOM3D: Tasks On Molecules in Three Dimensions](https://arxiv.org/pdf/2012.04035.pdf)
@@ -486,9 +486,9 @@ ___
 
 
 
-## Other Domains
+## **Other Domains**
 
-### Crystal Property Prediction
+### **Crystal Property Prediction**
 
 **Datasets:**
 > + Materials Project——[CGCNN: Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.10324.pdf)
@@ -503,7 +503,7 @@ ___
 > + [Crystal twins: Self-supervised Learning for Crystalline Material Property Prediction](https://www.nature.com/articles/s41524-022-00921-5)
 > + [MMPT: A Crystal-Specific Pre-Training Framework for Crystal Material Property Prediction](https://arxiv.org/pdf/2306.05344.pdf)
 
-### Crystal Generation
+### **Crystal Generation**
 
 **Datasets:**
 > + Perov-5 & Carbon-24 & MP-20——[CDVAE: Crystal Diffusion Variational Autoencoder for Periodic Material Generation](https://github.com/txie-93/cdvae/tree/main/data)
@@ -516,7 +516,7 @@ ___
 > + [MatterGen: A Generative Model for Inorganic Materials Design](https://arxiv.org/pdf/2312.03687.pdf)
 
 
-### RNA Structure Ranking
+### **RNA Structure Ranking**
 
 **Datasets:**
 > + FARFAR2-Puzzles——[ARES: Geometric deep learning of RNA structure](https://www.science.org/doi/10.1126/science.abe5650)
@@ -525,7 +525,7 @@ ___
 > + [ARES: Geometric deep learning of RNA structure](https://www.science.org/doi/10.1126/science.abe5650)
 > + [PaxNet: Physics-aware graph neural network for accurate RNA 3D structure prediction](https://arxiv.org/pdf/2210.16392.pdf)
 
-## Related Surveys and Tutorials
+## **Related Surveys and Tutorials**
 > + [Geometrically equivariant graph neural networks: A survey](https://arxiv.org/pdf/2202.07230.pdf)
 > + [A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems](https://arxiv.org/pdf/2312.07511.pdf)
 > + [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/0760.pdf)
