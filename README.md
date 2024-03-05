@@ -1,6 +1,9 @@
 # **A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**
 
 **arXiv:** [https://arxiv.org/abs/2403.00485](https://arxiv.org/abs/2403.00485)
+<center class="half">
+    <img src="assets/gsai.png" width="450" height="100"/>  <img src="assets/thu.png" width="250" height="100"/> <img src="assets/tencent.png" width="160" height="100"/> <img src="assets/stanford.jpg" width="200" height="100"/>
+</center>
 
 ## **Abstract**
 Geometric graph is a special kind of graph with geometric features, which is vital to model many scientific problems. Unlike generic graphs, geometric graphs often exhibit physical symmetries of translations, rotations, and reflections, making them ineffectively processed by current Graph Neural Networks (GNNs). To tackle this issue, researchers proposed a variety of Geometric Graph Neural Networks equipped with invariant/equivariant properties to better characterize the geometry and topology of geometric graphs. Given the current progress in this field, it is imperative to conduct a comprehensive survey of data structures, models, and applications related to geometric GNNs. In this paper, based on the necessary but concise mathematical preliminaries, we provide a unified view of existing models from the geometric message passing perspective. Additionally, we summarize the applications as well as the related datasets to facilitate later research for methodology development and experimental evaluation. We also discuss the challenges and future potential directions of Geometric GNNs at the end of this survey. 
