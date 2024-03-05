@@ -2,7 +2,7 @@
 
 **arXiv:** [https://arxiv.org/abs/2403.00485](https://arxiv.org/abs/2403.00485)
 <center class="half">
-    <img src="assets/ruc.svg" height="100"/> &emsp;&emsp; <img src="assets/thu.png" height="100"/>  &emsp;&emsp; <img src="assets/tencent.png" width="160" height="100"/> &emsp;&emsp;<img src="assets/stanford.jpg" width="200" height="100"/>
+    <img src="assets/ruc.svg" height="100"/>&emsp;<img src="assets/thu.png" height="100"/> <img src="assets/tencent.png" width="160" height="100"/> <img src="assets/stanford.jpg" width="200" height="100"/>
 </center>
 
 ## **Abstract**
