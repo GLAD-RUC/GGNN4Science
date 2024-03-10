@@ -1,9 +1,13 @@
 # **A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**
 
-**arXiv:** [https://arxiv.org/abs/2403.00485](https://arxiv.org/abs/2403.00485)
-<center class="half">
-    <img src="assets/ruc.svg" height="100"/>&emsp;<img src="assets/thu.png" height="100"/> <img src="assets/tencent.png" width="160" height="100"/> <img src="assets/stanford.jpg" width="200" height="100"/>
-</center>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/RUC-GLAD/GGNN4Science/blob/main/LICENSE)  **[[arXiv]](https://arxiv.org/abs/2403.00485)**
+
+<p align="center" width="100%">
+    <img src="assets/ruc.svg" height="100"> &emsp;&emsp;&emsp;
+    <img src="assets/thu.png" height="100"> &emsp;&emsp;&emsp;
+    <img src="assets/tencent.png" width="160" height="100"/>
+    <img src="assets/stanford.jpg" width="200" height="100"/>
+</p>
 
 ## **Abstract**
 Geometric graph is a special kind of graph with geometric features, which is vital to model many scientific problems. Unlike generic graphs, geometric graphs often exhibit physical symmetries of translations, rotations, and reflections, making them ineffectively processed by current Graph Neural Networks (GNNs). To tackle this issue, researchers proposed a variety of Geometric Graph Neural Networks equipped with invariant/equivariant properties to better characterize the geometry and topology of geometric graphs. Given the current progress in this field, it is imperative to conduct a comprehensive survey of data structures, models, and applications related to geometric GNNs. In this paper, based on the necessary but concise mathematical preliminaries, we provide a unified view of existing models from the geometric message passing perspective. Additionally, we summarize the applications as well as the related datasets to facilitate later research for methodology development and experimental evaluation. We also discuss the challenges and future potential directions of Geometric GNNs at the end of this survey. 
@@ -57,51 +61,51 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 
 ## **Architectures and Models**
 ### **Invariant Graph Neural Networks**
-> + SchNet——[SchNet: A continuous-filter convolutional neural network for modeling quantum interactions](https://papers.nips.cc/paper/2017/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf)
-> + DimeNet——[Directional Message Passing for Molecular Graphs](https://openreview.net/pdf?id=B1eWbxStPH)
-> + DimeNet++——[Fast and Uncertainty-Aware Directional Message Passing for Non-Equilibrium Molecules](https://arxiv.org/pdf/2011.14115.pdf)
-> + FastDimeNet++——[FastDimeNet++: Training DimeNet++ in 22 minutes](https://dl.acm.org/doi/pdf/10.1145/3605573.3605577)
-> + GemNet [GemNet: Universal Directional Graph Neural Networks for Molecules](https://proceedings.neurips.cc/paper/2021/file/35cf8659cfcb13224cbd47863a34fc58-Paper.pdf)
-> + LieConv——[Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data](https://proceedings.mlr.press/v119/finzi20a/finzi20a.pdf)
-> + SphereNet——[Spherical Message Passing for 3D Molecular Graphs](https://openreview.net/pdf?id=givsRXsOt9r)
-> + ComENet——[ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs](https://papers.nips.cc/paper_files/paper/2022/file/0418973e545b932939302cb605d06f43-Paper-Conference.pdf)
-> + QMP——[A Plug-and-Play Quaternion Message-Passing Module for Molecular Conformation Representation](https://github.com/AngxiaoYue/QMP)
+> + [SchNet: A continuous-filter convolutional neural network for modeling quantum interactions](https://papers.nips.cc/paper/2017/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf)
+> + [DimeNet: Directional Message Passing for Molecular Graphs](https://openreview.net/pdf?id=B1eWbxStPH)
+> + [DimeNet++: Fast and Uncertainty-Aware Directional Message Passing for Non-Equilibrium Molecules](https://arxiv.org/pdf/2011.14115.pdf)
+> + [FastDimeNet++: Training DimeNet++ in 22 minutes](https://dl.acm.org/doi/pdf/10.1145/3605573.3605577)
+> + [GemNet: Universal Directional Graph Neural Networks for Molecules](https://proceedings.neurips.cc/paper/2021/file/35cf8659cfcb13224cbd47863a34fc58-Paper.pdf)
+> + [LieConv: Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data](https://proceedings.mlr.press/v119/finzi20a/finzi20a.pdf)
+> + [SphereNet: Spherical Message Passing for 3D Molecular Graphs](https://openreview.net/pdf?id=givsRXsOt9r)
+> + [ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs](https://papers.nips.cc/paper_files/paper/2022/file/0418973e545b932939302cb605d06f43-Paper-Conference.pdf)
+> + [QMP: A Plug-and-Play Quaternion Message-Passing Module for Molecular Conformation Representation](https://github.com/AngxiaoYue/QMP)
 
 
 ### **Equivariant Graph Neural Networks**
 #### **Scalarization-Based Models**
-> + EGNN——[E(n) Equivariant Graph Neural Networks](https://proceedings.mlr.press/v139/satorras21a/satorras21a.pdf)
-> + GMN——[Equivariant Graph Mechanics Networks with Constraints](https://openreview.net/pdf?id=SHbhHHfePhP)
-> + PaiNN——[Equivariant message passing for the prediction of tensorial properties and molecular spectra](https://proceedings.mlr.press/v139/schutt21a/schutt21a.pdf)
-> + ClofNet——[SE (3) Equivariant Graph Neural Networks with Complete Local Frames](https://proceedings.mlr.press/v162/du22e/du22e.pdf)
-> + LoCS——[Roto-translated Local Coordinate Frames For Interacting Dynamical Systems](https://proceedings.neurips.cc/paper/2021/file/32b991e5d77ad140559ffb95522992d0-Paper.pdf)
-> + G-LoCS——[Latent Field Discovery In Interacting Dynamical Systems With Neural Fields](https://proceedings.neurips.cc/paper_files/paper/2023/file/6521bd47ebaa28228cd6c74cb85afb65-Paper-Conference.pdf)
-> + Radial Field——[Equivariant Flows: sampling configurations for multi-body systems with symmetric energies](https://arxiv.org/abs/1910.00753)
-> + GVP-GNN——[Learning from Protein Structure with Geometric Vector Perceptrons](https://openreview.net/pdf?id=1YLJDvSx6J4)
-> + EGHN——[Equivariant Graph Hierarchy-Based Neural Networks](https://papers.nips.cc/paper_files/paper/2022/file/3bdeb28a531f7af94b56bcdf8ee88f17-Paper-Conference.pdf)
-> + LEFTNet——[A new perspective on building efficient and expressive 3D equivariant graph neural networks](https://openreview.net/pdf?id=hWPNYWkYPN)
-> + Frame-Averaging——[Frame Averaging for Invariant and Equivariant Network Design](https://openreview.net/pdf?id=zIUyj55nXR)
+> + [EGNN: E(n) Equivariant Graph Neural Networks](https://proceedings.mlr.press/v139/satorras21a/satorras21a.pdf)
+> + [GMN: Equivariant Graph Mechanics Networks with Constraints](https://openreview.net/pdf?id=SHbhHHfePhP)
+> + [PaiNN: Equivariant message passing for the prediction of tensorial properties and molecular spectra](https://proceedings.mlr.press/v139/schutt21a/schutt21a.pdf)
+> + [ClofNet: SE (3) Equivariant Graph Neural Networks with Complete Local Frames](https://proceedings.mlr.press/v162/du22e/du22e.pdf)
+> + [LoCS: Roto-translated Local Coordinate Frames For Interacting Dynamical Systems](https://proceedings.neurips.cc/paper/2021/file/32b991e5d77ad140559ffb95522992d0-Paper.pdf)
+> + [G-LoCS: Latent Field Discovery In Interacting Dynamical Systems With Neural Fields](https://proceedings.neurips.cc/paper_files/paper/2023/file/6521bd47ebaa28228cd6c74cb85afb65-Paper-Conference.pdf)
+> + [Radial Field: Equivariant Flows: sampling configurations for multi-body systems with symmetric energies](https://arxiv.org/abs/1910.00753)
+> + [GVP-GNN: Learning from Protein Structure with Geometric Vector Perceptrons](https://openreview.net/pdf?id=1YLJDvSx6J4)
+> + [EGHN: Equivariant Graph Hierarchy-Based Neural Networks](https://papers.nips.cc/paper_files/paper/2022/file/3bdeb28a531f7af94b56bcdf8ee88f17-Paper-Conference.pdf)
+> + [LEFTNet: A new perspective on building efficient and expressive 3D equivariant graph neural networks](https://openreview.net/pdf?id=hWPNYWkYPN)
+> + [Frame-Averaging: Frame Averaging for Invariant and Equivariant Network Design](https://openreview.net/pdf?id=zIUyj55nXR)
 
 #### **High-Degree Steerable Models**
-> + TFN——[Tensor field networks: Rotation- and translation-equivariant neural networks for 3D point clouds](https://arxiv.org/pdf/1802.08219.pdf)
-> + SEGNN——[Geometric and Physical Quantities Improve E(3) Equivariant Message Passing](https://openreview.net/pdf?id=_xwr8gOBeV1)
-> + Cormorant——[Cormorant: Covariant Molecular Neural Networks](https://papers.nips.cc/paper/2019/file/03573b32b2746e6e8ca98b9123f2249b-Paper.pdf)
-> + NequIP——[E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials](https://www.nature.com/articles/s41467-022-29939-5)
-> + SCN——[Spherical Channels for Modeling Atomic Interactions](https://proceedings.neurips.cc/paper_files/paper/2022/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf)
-> + eSCN——[Reducing SO(3) Convolutions to SO(2) for Efficient Equivariant GNNs](https://openreview.net/pdf?id=QIejMwU0r9)
-> + MACE——[MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
-> + Allegro——[Learning local equivariant representations for large-scale atomistic dynamics](https://www.nature.com/articles/s41467-023-36329-y)
+> + [Tensor field networks: Rotation- and translation-equivariant neural networks for 3D point clouds](https://arxiv.org/pdf/1802.08219.pdf)
+> + [SEGNN: Geometric and Physical Quantities Improve E(3) Equivariant Message Passing](https://openreview.net/pdf?id=_xwr8gOBeV1)
+> + [Cormorant: Covariant Molecular Neural Networks](https://papers.nips.cc/paper/2019/file/03573b32b2746e6e8ca98b9123f2249b-Paper.pdf)
+> + [NequIP: E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials](https://www.nature.com/articles/s41467-022-29939-5)
+> + [SCN: Spherical Channels for Modeling Atomic Interactions](https://proceedings.neurips.cc/paper_files/paper/2022/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf)
+> + [eSCN: Reducing SO(3) Convolutions to SO(2) for Efficient Equivariant GNNs](https://openreview.net/pdf?id=QIejMwU0r9)
+> + [MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
+> + [Allegro: Learning local equivariant representations for large-scale atomistic dynamics](https://www.nature.com/articles/s41467-023-36329-y)
 
 ### **Geometric Graph Transformers**
-> + Graphormer——[Do Transformers Really Perform Bad for Graph Representation?](https://proceedings.neurips.cc/paper/2021/file/f1c1592588411002af340cbaedd6fc33-Paper.pdf)
-> + TorchMD-Net——[Equivariant Transformers for Neural Network based Molecular Potentials](https://openreview.net/pdf?id=zNHzqZ9wrRB)
-> + SE(3)-Transformer——[SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks](https://proceedings.neurips.cc/paper/2020/file/15231a7ce4ba789d13b722cc5c955834-Paper.pdf)
-> + LieTransformer——[LieTransformer: Equivariant self-attention for Lie Groups](https://proceedings.mlr.press/v139/hutchinson21a/hutchinson21a.pdf)
-> + GVP-Transformer——[Learning inverse folding from millions of predicted structures](https://proceedings.mlr.press/v162/hsu22a/hsu22a.pdf)
-> + Equiformer——[Equiformer: Equivariant Graph Attention Transformer for 3D Atomistic Graphs](https://openreview.net/pdf?id=_efamP7PSjg)
-> + EquiformerV2——[EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations](https://openreview.net/pdf?id=3o4jU8fWVj)
-> + Geoformer——[Geometric Transformer with Interatomic Positional Encoding](https://papers.nips.cc/paper_files/paper/2023/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)
-> + EPT——[Equivariant Pretrained Transformer for Unified Geometric Learning on Multi-Domain 3D Molecules](https://arxiv.org/pdf/2402.12714v1.pdf)
+> + [Graphormer: Do Transformers Really Perform Bad for Graph Representation?](https://proceedings.neurips.cc/paper/2021/file/f1c1592588411002af340cbaedd6fc33-Paper.pdf)
+> + [TorchMD-Net: Equivariant Transformers for Neural Network based Molecular Potentials](https://openreview.net/pdf?id=zNHzqZ9wrRB)
+> + [SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks](https://proceedings.neurips.cc/paper/2020/file/15231a7ce4ba789d13b722cc5c955834-Paper.pdf)
+> + [LieTransformer: Equivariant self-attention for Lie Groups](https://proceedings.mlr.press/v139/hutchinson21a/hutchinson21a.pdf)
+> + [GVP-Transformer: Learning inverse folding from millions of predicted structures](https://proceedings.mlr.press/v162/hsu22a/hsu22a.pdf)
+> + [Equiformer: Equivariant Graph Attention Transformer for 3D Atomistic Graphs](https://openreview.net/pdf?id=_efamP7PSjg)
+> + [EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations](https://openreview.net/pdf?id=3o4jU8fWVj)
+> + [Geoformer: Geometric Transformer with Interatomic Positional Encoding](https://papers.nips.cc/paper_files/paper/2023/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)
+> + [EPT: Equivariant Pretrained Transformer for Unified Geometric Learning on Multi-Domain 3D Molecules](https://arxiv.org/pdf/2402.12714v1.pdf)
 
 ## **Geometric GNNs for Physics**
 ### **Particle**
