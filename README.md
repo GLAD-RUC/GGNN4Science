@@ -509,6 +509,7 @@ ___
 > + [Matformer: Periodic Graph Transformers for Crystal Material Property Prediction](https://arxiv.org/pdf/2209.11807.pdf)
 > + [Crystal twins: Self-supervised Learning for Crystalline Material Property Prediction](https://www.nature.com/articles/s41524-022-00921-5)
 > + [MMPT: A Crystal-Specific Pre-Training Framework for Crystal Material Property Prediction](https://arxiv.org/pdf/2306.05344.pdf)
+> + [CrysDiff: A Diffusion-Based Pre-training Framework for Crystal Property Prediction](https://ojs.aaai.org/index.php/AAAI/article/download/28748/29440)
 
 ### **Crystal Generation**
 
