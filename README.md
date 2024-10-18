@@ -61,15 +61,15 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 
 ## **Architectures and Models**
 ### **Invariant Graph Neural Networks**
-> + [SchNet: A continuous-filter convolutional neural network for modeling quantum interactions](https://papers.nips.cc/paper/2017/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf)
-> + [DimeNet: Directional Message Passing for Molecular Graphs](https://openreview.net/pdf?id=B1eWbxStPH)
-> + [DimeNet++: Fast and Uncertainty-Aware Directional Message Passing for Non-Equilibrium Molecules](https://arxiv.org/pdf/2011.14115.pdf)
-> + [FastDimeNet++: Training DimeNet++ in 22 minutes](https://dl.acm.org/doi/pdf/10.1145/3605573.3605577)
-> + [GemNet: Universal Directional Graph Neural Networks for Molecules](https://proceedings.neurips.cc/paper/2021/file/35cf8659cfcb13224cbd47863a34fc58-Paper.pdf)
-> + [LieConv: Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data](https://proceedings.mlr.press/v119/finzi20a/finzi20a.pdf)
-> + [SphereNet: Spherical Message Passing for 3D Molecular Graphs](https://openreview.net/pdf?id=givsRXsOt9r)
-> + [ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs](https://papers.nips.cc/paper_files/paper/2022/file/0418973e545b932939302cb605d06f43-Paper-Conference.pdf)
-> + [QMP: A Plug-and-Play Quaternion Message-Passing Module for Molecular Conformation Representation](https://github.com/AngxiaoYue/QMP)
+> + [[NIPS'17] SchNet: A continuous-filter convolutional neural network for modeling quantum interactions](https://papers.nips.cc/paper/2017/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf)
+> + [[ICLR'20] DimeNet: Directional Message Passing for Molecular Graphs](https://openreview.net/pdf?id=B1eWbxStPH)
+>   + [[arXiv:2011.14115] DimeNet++: Fast and Uncertainty-Aware Directional Message Passing for Non-Equilibrium Molecules](https://arxiv.org/pdf/2011.14115.pdf)
+>   + [[ICPP'23] FastDimeNet++: Training DimeNet++ in 22 minutes](https://dl.acm.org/doi/pdf/10.1145/3605573.3605577)
+> + [[ICML'20] LieConv: Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data](https://proceedings.mlr.press/v119/finzi20a/finzi20a.pdf)
+> + [[NeurIPS'21] GemNet: Universal Directional Graph Neural Networks for Molecules](https://proceedings.neurips.cc/paper/2021/file/35cf8659cfcb13224cbd47863a34fc58-Paper.pdf)
+> + [[ICLR'22] SphereNet: Spherical Message Passing for 3D Molecular Graphs](https://openreview.net/pdf?id=givsRXsOt9r)
+> + [[NeurIPS'22] ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs](https://papers.nips.cc/paper_files/paper/2022/file/0418973e545b932939302cb605d06f43-Paper-Conference.pdf)
+> + [[AAAI'24] QMP: A Plug-and-Play Quaternion Message-Passing Module for Molecular Conformation Representation](https://ojs.aaai.org/index.php/AAAI/article/download/29602/31016)
 
 
 ### **Equivariant Graph Neural Networks**
