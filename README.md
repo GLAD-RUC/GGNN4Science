@@ -81,33 +81,42 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + [NeurIPS'21] LoCS: [Roto-translated Local Coordinate Frames For Interacting Dynamical Systems](https://proceedings.neurips.cc/paper/2021/file/32b991e5d77ad140559ffb95522992d0-Paper.pdf)
 >   + [NeurIPS'23] G-LoCS: [Latent Field Discovery In Interacting Dynamical Systems With Neural Fields](https://proceedings.neurips.cc/paper_files/paper/2023/file/6521bd47ebaa28228cd6c74cb85afb65-Paper-Conference.pdf)
 > + [ICLR'22] GMN: [Equivariant Graph Mechanics Networks with Constraints](https://openreview.net/pdf?id=SHbhHHfePhP)
-> + [ICML'22] ClofNet: [SE (3) Equivariant Graph Neural Networks with Complete Local Frames](https://proceedings.mlr.press/v162/du22e/du22e.pdf)
 > + [ICLR'22] Frame-Averaging: [Frame Averaging for Invariant and Equivariant Network Design](https://openreview.net/pdf?id=zIUyj55nXR)
+> + [ICML'22] ClofNet: [SE (3) Equivariant Graph Neural Networks with Complete Local Frames](https://proceedings.mlr.press/v162/du22e/du22e.pdf)
 > + [NeurIPS'22] EGHN: [Equivariant Graph Hierarchy-Based Neural Networks](https://papers.nips.cc/paper_files/paper/2022/file/3bdeb28a531f7af94b56bcdf8ee88f17-Paper-Conference.pdf)
 > + [NeurIPS'23] LEFTNet: [A new perspective on building efficient and expressive 3D equivariant graph neural networks](https://openreview.net/pdf?id=hWPNYWkYPN)
 > + [ICML'24] FastEGNN: [Improving Equivariant Graph Neural Networks on Large Geometric Graphs via Virtual Nodes Learning](https://openreview.net/attachment?id=wWdkNkUY8k&name=pdf)
+> + [NC'2401] ViSNet: [Enhancing geometric representations for molecules with equivariant vector-scalar interactive message passing
+](https://www.nature.com/articles/s41467-023-43720-2)
+> + [NeurIPS'24] Neural P$^3$M: [Neural P$^3$M: A Long-Range Interaction Modeling Enhancer for Geometric GNNs](https://arxiv.org/pdf/2409.17622)
 > + [NeurIPS'24] HEGNN: [Are High-Degree Representations Really Unnecessary in Equivarinat Graph Neural Networks?](https://arxiv.org/pdf/2410.11443)
 
+
+
 #### **High-Degree Steerable Models**
-> + [Tensor field networks: Rotation- and translation-equivariant neural networks for 3D point clouds](https://arxiv.org/pdf/1802.08219.pdf)
-> + [SEGNN: Geometric and Physical Quantities Improve E(3) Equivariant Message Passing](https://openreview.net/pdf?id=_xwr8gOBeV1)
-> + [Cormorant: Covariant Molecular Neural Networks](https://papers.nips.cc/paper/2019/file/03573b32b2746e6e8ca98b9123f2249b-Paper.pdf)
-> + [NequIP: E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials](https://www.nature.com/articles/s41467-022-29939-5)
-> + [SCN: Spherical Channels for Modeling Atomic Interactions](https://proceedings.neurips.cc/paper_files/paper/2022/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf)
-> + [eSCN: Reducing SO(3) Convolutions to SO(2) for Efficient Equivariant GNNs](https://openreview.net/pdf?id=QIejMwU0r9)
-> + [MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
-> + [Allegro: Learning local equivariant representations for large-scale atomistic dynamics](https://www.nature.com/articles/s41467-023-36329-y)
+> + [arXiv:1802.08219] Tensor field networks: [Rotation- and translation-equivariant neural networks for 3D point clouds](https://arxiv.org/pdf/1802.08219.pdf)
+> + [NeurIPS'19] Cormorant: [Covariant Molecular Neural Networks](https://papers.nips.cc/paper/2019/file/03573b32b2746e6e8ca98b9123f2249b-Paper.pdf)
+> + [ICLR'22] SEGNN: [Geometric and Physical Quantities Improve E(3) Equivariant Message Passing](https://openreview.net/pdf?id=_xwr8gOBeV1)
+> + [NC'2205] NequIP: [E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials](https://www.nature.com/articles/s41467-022-29939-5)
+>   + [NC'2302] Allegro: [Learning local equivariant representations for large-scale atomistic dynamics](https://www.nature.com/articles/s41467-023-36329-y)
+> + [NeurIPS'22] SCN: [Spherical Channels for Modeling Atomic Interactions](https://proceedings.neurips.cc/paper_files/paper/2022/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf)
+>   + [ICML'23] eSCN: [Reducing SO(3) Convolutions to SO(2) for Efficient Equivariant GNNs](https://openreview.net/pdf?id=QIejMwU0r9)
+> + [NeurIPS'22] MACE: [Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
+
 
 ### **Geometric Graph Transformers**
-> + [Graphormer: Do Transformers Really Perform Bad for Graph Representation?](https://proceedings.neurips.cc/paper/2021/file/f1c1592588411002af340cbaedd6fc33-Paper.pdf)
-> + [TorchMD-Net: Equivariant Transformers for Neural Network based Molecular Potentials](https://openreview.net/pdf?id=zNHzqZ9wrRB)
-> + [SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks](https://proceedings.neurips.cc/paper/2020/file/15231a7ce4ba789d13b722cc5c955834-Paper.pdf)
-> + [LieTransformer: Equivariant self-attention for Lie Groups](https://proceedings.mlr.press/v139/hutchinson21a/hutchinson21a.pdf)
-> + [GVP-Transformer: Learning inverse folding from millions of predicted structures](https://proceedings.mlr.press/v162/hsu22a/hsu22a.pdf)
-> + [Equiformer: Equivariant Graph Attention Transformer for 3D Atomistic Graphs](https://openreview.net/pdf?id=_efamP7PSjg)
-> + [EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations](https://openreview.net/pdf?id=3o4jU8fWVj)
-> + [Geoformer: Geometric Transformer with Interatomic Positional Encoding](https://papers.nips.cc/paper_files/paper/2023/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)
-> + [EPT: Equivariant Pretrained Transformer for Unified Geometric Learning on Multi-Domain 3D Molecules](https://arxiv.org/pdf/2402.12714v1.pdf)
+> + [NeurIPS'20] SE(3)-Transformers: [3D Roto-Translation Equivariant Attention Networks](https://proceedings.neurips.cc/paper/2020/file/15231a7ce4ba789d13b722cc5c955834-Paper.pdf)
+> + [NeurIPS'21] Graphormer: [Do Transformers Really Perform Bad for Graph Representation?](https://proceedings.neurips.cc/paper/2021/file/f1c1592588411002af340cbaedd6fc33-Paper.pdf)
+> + [ICML'21] LieTransformer: [Equivariant self-attention for Lie Groups](https://proceedings.mlr.press/v139/hutchinson21a/hutchinson21a.pdf)
+> + [ICLR'22] TorchMD-Net: [Equivariant Transformers for Neural Network based Molecular Potentials](https://openreview.net/pdf?id=zNHzqZ9wrRB)
+> + [ICML'22] GVP-Transformer: [Learning inverse folding from millions of predicted structures](https://proceedings.mlr.press/v162/hsu22a/hsu22a.pdf)
+> + [NeurIPS'22] Equiformer: [Equivariant Graph Attention Transformer for 3D Atomistic Graphs](https://openreview.net/pdf?id=_efamP7PSjg)
+>   + [NeurIPS'23] EquiformerV2: [Improved Equivariant Transformer for Scaling to Higher-Degree Representations](https://openreview.net/pdf?id=3o4jU8fWVj)
+> + [NeurIPS'22] So3krates: [So3krates: Equivariant attention for interactions on arbitrary length-scales in molecular systems
+](https://proceedings.neurips.cc/paper_files/paper/2022/file/bcf4ca90a8d405201d29dd47d75ac896-Paper-Conference.pdf)
+>   + [NC'2408] So3krates: [A Euclidean transformer for fast and stable machine learned force fields](https://www.nature.com/articles/s41467-024-50620-6)
+> + [NeurIPS'23] Geoformer: [Geometric Transformer with Interatomic Positional Encoding](https://papers.nips.cc/paper_files/paper/2023/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)
+> + [arXiv:2402.12714v1] EPT: [Equivariant Pretrained Transformer for Unified Geometric Learning on Multi-Domain 3D Molecules](https://arxiv.org/pdf/2402.12714v1.pdf)
 
 ## **Geometric GNNs for Physics**
 ### **Particle**
