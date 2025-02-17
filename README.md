@@ -69,7 +69,9 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + [NeurIPS'21] GemNet: [Universal Directional Graph Neural Networks for Molecules](https://proceedings.neurips.cc/paper/2021/file/35cf8659cfcb13224cbd47863a34fc58-Paper.pdf)
 > + [ICLR'22] SphereNet: [Spherical Message Passing for 3D Molecular Graphs](https://openreview.net/pdf?id=givsRXsOt9r)
 > + [NeurIPS'22] ComENet: [Towards Complete and Efficient Message Passing for 3D Molecular Graphs](https://papers.nips.cc/paper_files/paper/2022/file/0418973e545b932939302cb605d06f43-Paper-Conference.pdf)
+> + [NeurIPS'23] $k$-DisGNN: [Is Distance Matrix Enough for Geometric Deep Learning?](https://proceedings.neurips.cc/paper_files/paper/2023/file/75f1a165c7561e028c41d42fa6286a76-Paper-Conference.pdf)
 > + [AAAI'24] QMP: [A Plug-and-Play Quaternion Message-Passing Module for Molecular Conformation Representation](https://ojs.aaai.org/index.php/AAAI/article/download/29602/31016)
+> + [ICLR'25] GeoNGNN: [On the Completeness of Invariant Geometric Deep Learning Models](https://openreview.net/pdf?id=52x04chyQs)
 
 
 ### **Equivariant Graph Neural Networks**
@@ -84,12 +86,15 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + [ICLR'22] Frame-Averaging: [Frame Averaging for Invariant and Equivariant Network Design](https://openreview.net/pdf?id=zIUyj55nXR)
 > + [ICML'22] ClofNet: [SE (3) Equivariant Graph Neural Networks with Complete Local Frames](https://proceedings.mlr.press/v162/du22e/du22e.pdf)
 > + [NeurIPS'22] EGHN: [Equivariant Graph Hierarchy-Based Neural Networks](https://papers.nips.cc/paper_files/paper/2022/file/3bdeb28a531f7af94b56bcdf8ee88f17-Paper-Conference.pdf)
+> + [NeurIPS'23] QuinNet: [Efficiently incorporating quintuple interactions into geometric deep learning force fields
+](https://proceedings.neurips.cc/paper_files/paper/2023/file/f32b13bfc384b3b1d52d675b05f2bece-Paper-Conference.pdf)
 > + [NeurIPS'23] LEFTNet: [A new perspective on building efficient and expressive 3D equivariant graph neural networks](https://openreview.net/pdf?id=hWPNYWkYPN)
+> + [NeurIPS'23] SaVeNet: [SaVeNet: A Scalable Vector Network for Enhanced Molecular Representation Learning](https://papers.nips.cc/paper_files/paper/2023/file/860c1c657deafe09f64c013c2888bd7b-Paper-Conference.pdf)
 > + [ICML'24] FastEGNN: [Improving Equivariant Graph Neural Networks on Large Geometric Graphs via Virtual Nodes Learning](https://openreview.net/attachment?id=wWdkNkUY8k&name=pdf)
 > + [NC'2401] ViSNet: [Enhancing geometric representations for molecules with equivariant vector-scalar interactive message passing
 ](https://www.nature.com/articles/s41467-023-43720-2)
-> + [NeurIPS'24] Neural P$^3$M: [Neural P$^3$M: A Long-Range Interaction Modeling Enhancer for Geometric GNNs](https://arxiv.org/pdf/2409.17622)
-> + [NeurIPS'24] HEGNN: [Are High-Degree Representations Really Unnecessary in Equivarinat Graph Neural Networks?](https://arxiv.org/pdf/2410.11443)
+> + [NeurIPS'24] Neural $\textrm{P}^3\textrm{M}$: [Neural P$^3$M: A Long-Range Interaction Modeling Enhancer for Geometric GNNs](https://openreview.net/pdf?id=ncqauwSyl5)
+> + [NeurIPS'24] HEGNN: [Are High-Degree Representations Really Unnecessary in Equivarinat Graph Neural Networks?](https://openreview.net/pdf?id=M0ncNVuGYN)
 
 
 
@@ -117,6 +122,8 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 >   + [NC'2408] So3krates: [A Euclidean transformer for fast and stable machine learned force fields](https://www.nature.com/articles/s41467-024-50620-6)
 > + [NeurIPS'23] Geoformer: [Geometric Transformer with Interatomic Positional Encoding](https://papers.nips.cc/paper_files/paper/2023/file/aee2f03ecb2b2c1ea55a43946b651cfd-Paper-Conference.pdf)
 > + [arXiv:2402.12714v1] EPT: [Equivariant Pretrained Transformer for Unified Geometric Learning on Multi-Domain 3D Molecules](https://arxiv.org/pdf/2402.12714v1.pdf)
+> + [NeurIPS'24] EScAIP: [The Importance of Being Scalable: Improving the Speed and Accuracy of Neural Network Interatomic Potentials Across Chemical Domains](https://openreview.net/pdf?id=Y4mBaZu4vy)
+> + [ICLR'25] GotenNet: [GotenNet: Rethinking Efficient 3D Equivariant Graph Neural Networks](https://openreview.net/pdf?id=5wxCQDtbMo)
 
 ## **Geometric GNNs for Physics**
 ### **Particle**
