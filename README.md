@@ -95,7 +95,8 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 ](https://www.nature.com/articles/s41467-023-43720-2)
 > + [NeurIPS'24] Neural $\textrm{P}^3\textrm{M}$: [Neural P$^3$M: A Long-Range Interaction Modeling Enhancer for Geometric GNNs](https://openreview.net/pdf?id=ncqauwSyl5)
 > + [NeurIPS'24] HEGNN: [Are High-Degree Representations Really Unnecessary in Equivarinat Graph Neural Networks?](https://openreview.net/pdf?id=M0ncNVuGYN)
-
+> + [ICLR'25] ETNN: [E(n) Equivariant Topological Neural Networks](https://openreview.net/pdf?id=Ax3uliEBVR)
+> + [arXiv:2502.11149] EquiLLM: [Large Language-Geometry Model: When LLM meets Equivariance](https://arxiv.org/pdf/2502.11149)
 
 
 #### **High-Degree Steerable Models**
