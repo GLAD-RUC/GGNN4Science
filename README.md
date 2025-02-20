@@ -107,7 +107,7 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 >   + [NC'2302] Allegro: [Learning local equivariant representations for large-scale atomistic dynamics](https://www.nature.com/articles/s41467-023-36329-y)
 > + [NeurIPS'22] SCN: [Spherical Channels for Modeling Atomic Interactions](https://proceedings.neurips.cc/paper_files/paper/2022/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf)
 >   + [ICML'23] eSCN: [Reducing SO(3) Convolutions to SO(2) for Efficient Equivariant GNNs](https://openreview.net/pdf?id=QIejMwU0r9)
-> + [NeurIPS'22] MACE: [MACE:Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
+> + [NeurIPS'22] MACE: [MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
 
 
 ### **Geometric Graph Transformers**
