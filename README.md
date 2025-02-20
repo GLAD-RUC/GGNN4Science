@@ -107,7 +107,7 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 >   + [NC'2302] Allegro: [Learning local equivariant representations for large-scale atomistic dynamics](https://www.nature.com/articles/s41467-023-36329-y)
 > + [NeurIPS'22] SCN: [Spherical Channels for Modeling Atomic Interactions](https://proceedings.neurips.cc/paper_files/paper/2022/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf)
 >   + [ICML'23] eSCN: [Reducing SO(3) Convolutions to SO(2) for Efficient Equivariant GNNs](https://openreview.net/pdf?id=QIejMwU0r9)
-> + [NeurIPS'22] MACE: [Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
+> + [NeurIPS'22] MACE: [MACE:Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://openreview.net/pdf?id=YPpSngE-ZU)
 
 
 ### **Geometric Graph Transformers**
@@ -117,7 +117,7 @@ Geometric graph is a special kind of graph with geometric features, which is vit
 > + [ICLR'22] TorchMD-Net: [Equivariant Transformers for Neural Network based Molecular Potentials](https://openreview.net/pdf?id=zNHzqZ9wrRB)
 > + [ICML'22] GVP-Transformer: [Learning inverse folding from millions of predicted structures](https://proceedings.mlr.press/v162/hsu22a/hsu22a.pdf)
 > + [NeurIPS'22] Equiformer: [Equivariant Graph Attention Transformer for 3D Atomistic Graphs](https://openreview.net/pdf?id=_efamP7PSjg)
->   + [NeurIPS'23] EquiformerV2: [Improved Equivariant Transformer for Scaling to Higher-Degree Representations](https://openreview.net/pdf?id=3o4jU8fWVj)
+>   + [NeurIPS'23] EquiformerV2: [EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations](https://openreview.net/pdf?id=3o4jU8fWVj)
 > + [NeurIPS'22] So3krates: [So3krates: Equivariant attention for interactions on arbitrary length-scales in molecular systems
 ](https://proceedings.neurips.cc/paper_files/paper/2022/file/bcf4ca90a8d405201d29dd47d75ac896-Paper-Conference.pdf)
 >   + [NC'2408] So3krates: [A Euclidean transformer for fast and stable machine learned force fields](https://www.nature.com/articles/s41467-024-50620-6)
