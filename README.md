@@ -4,9 +4,10 @@
 
 <p align="center" width="100%">
     <img src="assets/ruc.svg" height="100"> &emsp;&emsp;&emsp;
+    <img src="assets/stanford.jpg" width="200" height="100"/> &emsp;&emsp;&emsp;
     <img src="assets/thu.png" height="100"> &emsp;&emsp;&emsp;
+    <img src="assets/damo.jpg" height="100"> &emsp;&emsp;&emsp;
     <img src="assets/tencent.png" width="160" height="100"/>
-    <img src="assets/stanford.jpg" width="200" height="100"/>
 </p>
 
 ## **Abstract**
