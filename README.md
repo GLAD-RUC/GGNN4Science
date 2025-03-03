@@ -2,13 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/RUC-GLAD/GGNN4Science/blob/main/LICENSE)  **[[arXiv]](https://arxiv.org/abs/2403.00485)**
 
+<p align="center" width="100%"> 
+    <img src="assets/ruc.svg" height="100"> &emsp;&emsp;&emsp;
+    <img src="assets/stanford.jpg" width="200" height="100"/> &emsp;&emsp;&emsp;
+    <img src="assets/thu.png" height="100"> &emsp;&emsp;&emsp;
+</p>
 <p align="center" width="100%">
-    <img src="assets/ruc.svg" height="100"> 
-    <img src="assets/stanford.jpg" width="200" height="100"/> 
-    <img src="assets/thu.png" height="100"> 
-    <img src="assets/damo.jpg" height="100">  
-    <img src="assets/hupan_lab.jpg" height="100">  
-    <img src="assets/tencent.png" width="160" height="100"/>
+    <img src="assets/damo.jpg" height="100">  &emsp;&emsp;&emsp;
+    <img src="assets/hupan_lab.jpg" height="100">  &emsp;&emsp;&emsp;
+    <img src="assets/tencent.png" width="160" height="100"/> &emsp;&emsp;&emsp;
 </p>
 
 ## **Abstract**
