@@ -1,6 +1,6 @@
 # **A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/RUC-GLAD/GGNN4Science/blob/main/LICENSE)  **[[arXiv]](https://arxiv.org/abs/2403.00485)**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/RUC-GLAD/GGNN4Science/blob/main/LICENSE)  **[[paper]](https://link.springer.com/article/10.1007/s11704-025-41426-w)**
 
 <p align="center" width="100%"> 
     <img src="assets/ruc.svg" height="100"> &emsp;&emsp;&emsp;
@@ -563,4 +563,22 @@ ___
 > + [Graph-based Molecular Representation Learning](https://www.ijcai.org/proceedings/2023/0744.pdf)
 > + [Geometric Deep Learning on Molecular Representations](https://arxiv.org/pdf/2107.12375.pdf)
 > + [Artificial intelligence for science in quantum, atomistic, and continuum systems](https://arxiv.org/pdf/2307.08423.pdf)
+
+
+
+## Citation
+
+If our work is helpful for your research, you can cite it as follows:
+```
+@article{han2025survey,
+  title={A survey of geometric graph neural networks: Data structures, models and applications},
+  author={Han, Jiaqi and Cen, Jiacheng and Wu, Liming and Li, Zongzhao and Kong, Xiangzhe and Jiao, Rui and Yu, Ziyang and Xu, Tingyang and Wu, Fandi and Wang, Zihe and others},
+  journal={Frontiers of Computer Science},
+  volume={19},
+  number={11},
+  pages={1--38},
+  year={2025},
+  publisher={Springer}
+}
+```
 
